@@ -1,0 +1,23 @@
+/* FONTS */
+
+/* Bai Jamjuree Regular */
+@font-face {
+  font-family: Bai Jamjuree;
+  src: url("./../assets/fonts/BaiJamjuree-Regular.ttf");
+  font-weight: 400;
+}
+/* Bai Jamjuree Bold */
+@font-face {
+  font-family: Bai Jamjuree;
+  src: url("./../assets/fonts/BaiJamjuree-Bold.ttf");
+  font-weight: 600;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: Bai Jamjuree;
+  list-style-type: none;
+  max-width: 100vw;
+}
